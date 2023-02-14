@@ -8,7 +8,7 @@ const [active, setActive] = useState(false);
   };
   return (
     <div id="main">
-      <p className={active ? "redColor" : "blueColor"} >Newton School</p>
+      <p className={active ? "blueColor" : "redColor"} >Newton School</p>
       <button id='button'  onClick={handleClick}>Change Style</button>
     </div>
   )
